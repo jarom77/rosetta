@@ -85,10 +85,10 @@
 | CLIP       | [xclip]         | [Get-Clipboard]           | Gets the contents of the clipboard.                               |
 | CLIP       | [xclip]         | [Set-Clipboard]           | Sets the contents of the clipboard.                               |
 |            |                 |                           |                                                                   |
-| NET        | [useradd]       | [New-LocalUser]           | Creates a local user account.                                     |
-| NET        | [userdel]       | [Remove-LocalUser]        | Deletes local user accounts.                                      |
-| NET        | [groupadd]      | [New-LocalGroup]          | Creates a local security group.                                   |
-| NET        | [groupdel]      | [Remove-LocalGroup]       | Deletes local security groups.                                    |
+| NET        | [adduser]       | [New-LocalUser]           | Creates a local user account.                                     |
+| NET        | [deluser]       | [Remove-LocalUser]        | Deletes local user accounts.                                      |
+| NET        | [addgroup]      | [New-LocalGroup]          | Creates a local security group.                                   |
+| NET        | [delgroup]      | [Remove-LocalGroup]       | Deletes local security groups.                                    |
 | NET        | [groupmod]      | [Add-LocalGroupMember]    | Adds members to a local group.                                    |
 | NET        | [groupmod]      | [Remove-LocalGroupMember] | Removes members from a local group.                               |
 |            |                 |                           |                                                                   |
@@ -195,8 +195,8 @@
 [echo]:                   	https://manpages.ubuntu.com/manpages/focal/en/man1/echo.1.html
 [find]:                   	https://manpages.ubuntu.com/manpages/focal/en/man1/find.1.html
 [grep]:                   	https://manpages.ubuntu.com/manpages/focal/en/man1/grep.1.html
-[groupadd]:               	https://manpages.ubuntu.com/manpages/focal/en/man8/groupadd.8.html
-[groupdel]:               	https://manpages.ubuntu.com/manpages/focal/en/man8/groupdel.8.html
+[addgroup]:               	https://manpages.ubuntu.com/manpages/focal/en/man8/addgroup.8.html
+[delgroup]:               	https://manpages.ubuntu.com/manpages/focal/en/man8/delgroup.8.html
 [groupmod]:               	https://manpages.ubuntu.com/manpages/focal/en/man8/groupmod.8.html
 [head]:                   	https://manpages.ubuntu.com/manpages/focal/en/man1/head.1.html
 [ip]:                     	https://manpages.ubuntu.com/manpages/focal/en/man8/ip.8.html
@@ -229,7 +229,7 @@
 [umount]:                 	https://manpages.ubuntu.com/manpages/focal/en/man8/umount.8.html
 [uname]:                  	https://manpages.ubuntu.com/manpages/focal/en/man1/uname.1.html
 [uniq]:                   	https://manpages.ubuntu.com/manpages/focal/en/man1/uniq.1.html
-[useradd]:                	https://manpages.ubuntu.com/manpages/focal/en/man8/useradd.8.html
-[userdel]:                	https://manpages.ubuntu.com/manpages/focal/en/man8/userdel.8.html
+[adduser]:                	https://manpages.ubuntu.com/manpages/focal/en/man8/adduser.8.html
+[deluser]:                	https://manpages.ubuntu.com/manpages/focal/en/man8/deluser.8.html
 [wc]:                     	https://manpages.ubuntu.com/manpages/focal/en/man1/wc.1.html
 [xclip]:                  	https://manpages.ubuntu.com/manpages/focal/en/man1/xclip.1.html
