@@ -29,7 +29,7 @@
 |            |                 |                           |                                                                   |
 |            | [touch]         | [New-Item]                | Creates a new item. (`-ItemType File`)                            |
 | COPY       | [cp]            | [Copy-Item]               | Copies an item from one location to another.                      |
-| REN        |                 | [Rename-Item]             | Renames an item in a Windows PowerShell provider namespace.       |
+| REN        | [mv]            | [Rename-Item]             | Renames an item in a Windows PowerShell provider namespace.       |
 | MOVE       | [mv]            | [Move-Item]               | Moves an item from one location to another.                       |
 | DEL        | [rm]            | [Remove-Item]             | Deletes files and folders.                                        |
 |            | [truncate]      | [Clear-Content]           | Deletes the contents of an item, but does not delete the item.    |
